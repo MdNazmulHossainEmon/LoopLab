@@ -1,0 +1,172 @@
+img {
+  max-width: 100%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* ==================== Header Part ========================= */
+.header {
+  border-bottom: 3px solid #008ed6;
+  background: #292b2c;
+  opacity: 0.7;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  z-index: 99;
+}
+.header-left {
+  margin-top: 20px;
+}
+.header-left a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+.header-right ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: right;
+  margin-top: 20px;
+}
+.header-right ul li {
+  display: inline-block;
+}
+.header-right ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 0 15px;
+}
+.header-right ul li a:hover {
+  color: #fff;
+}
+/* ============================ Home =================================== */
+.home {
+  background: url(./home.jpg) no-repeat top center;
+  background-size: cover;
+  height: 730px;
+  position: relative;
+  z-index: 1;
+}
+.home::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+.home-left-content {
+  margin-top: 200px;
+}
+.home-left-content h1 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  color: #fff;
+  margin-top: -32px;
+  margin-bottom: 50px;
+}
+.lorem-ipsum span {
+  background: #fff;
+  color: #008ed6;
+  padding: 0px 5px;
+  font-size: 26px;
+  float: left;
+  border-radius: 5px;
+  margin-right: 33px;
+  margin-bottom: 35px;
+  margin-top: 5px;
+}
+.lorem-ipsum p {
+  color: #fff;
+  font-size: 1.16rem;
+  font-weight: 300;
+  margin-bottom: 55px;
+}
+.card {
+  margin-top: 200px;
+}
+.card .card-body h4 {
+  color: #fff;
+  font-size: 1.75rem;
+  margin-top: 15px;
+}
+.card .card-body p {
+  color: #fff;
+  margin-bottom: 20px;
+}
+/* ========================= Explore ========================= */
+.explore {
+  background-color: #333333;
+  padding: 30px 0;
+}
+.same-content h2 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  color: #fff;
+}
+.same-content p {
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: #fff;
+}
+.explore-learn-right {
+  margin-left: 20px;
+}
+.explore-learn-right h3 {
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+.explore-learn-right p {
+  font-size: 1.14rem;
+  font-weight: 300;
+  text-align: justify;
+}
+.explore-learn-inner-content {
+  margin-top: 30px;
+}
+.explore-learn-inner-content span {
+  display: inline-block;
+  float: left;
+  font-size: 25px;
+  background: #333;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 20px;
+}
+.explore-learn-inner-content p {
+  margin-bottom: 40px;
+}
+/* ======================   Create Passion ======================== */
+.create-passion {
+  background-color: #333333;
+}
+.explore-learn-right .sp {
+  background-color: #fff;
+  color: #008ed6;
+}
+.explore-learn-right.backend {
+  margin-left: -30px;
+}
+/* ========================= Footer ======================== */
+.footer {
+  background-color: #333333;
+}
+.footer-content a {
+  text-decoration: none;
+  color: #ffc107;
+}
+.footer-content a:hover {
+  text-decoration: underline;
+}
+.footer-content h3 {
+  font-size: 33px;
+}
